@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/contact.css"> 
+    <link rel="stylesheet" href="../styles/admin.css"> 
+    <title>Contact</title>
+</head>
+<body>
+
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <a class="navbar-brand" href="../index.html"><img height="70px" class="navbar-logo" src="../images/Navbar-logo/TheraEase-logo1.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ">
+            <li class="nav-item mx-5 active">
+        <a class="nav-link text-light" href="../index.html">Home <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item mx-5">
+        <a class="nav-link text-light" href="./about.html">About</a>
+    </li>
+    <li class="nav-item mx-5">
+        <a class="nav-link text-light" href="./request.html">Appoinment </a>
+    </li>
+    <li class="nav-item mx-5">
+        <a class="nav-link text-light" href="./services.html">Services</a>
+    </li>
+    <li class="nav-item mx-5">
+        <a class="nav-link text-light" href="./contact.html">Contact</a>
+    </li>
+    <li class="nav-item mx-5">
+        <a class="nav-link text-light" href="./admin.html">Admin</a>
+    </li>
+</ul>
+</div>
+</nav>
+<!-- Navbar End --> 
+
+<br><br>
+<!-- Contact Start -->
+
+<div class="container  my-5">
+
+    <div class="row justify-content-center">
+        <div class="col-md-6 bg-light text-dark py-4">
+            <img class="mx-auto d-block" height="100px" src="https://media3.giphy.com/media/hQiDgZQIp5qsh09hOr/giphy.gif?cid=6c09b952gntw4ahkp29hzx7nxwx19l1kmfdu9nyrij5y5zqn&rid=giphy.gif&ct=s"
+            alt="">
+            <h3  class="text-center">Contact Us</h3>
+            <p class="text-center">We would love to hear from you</p>
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" class="form-control" id="fname" placeholder="Enter First Name">
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" class="form-control" id="lname" placeholder="Enter Last Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter Email">
+                </div>
+                <div class="form-group">
+                    <label for="comment">Comment</label>
+                    <textarea class="form-control" id="comment" rows="3"></textarea>
+                </div>
+                <button id="submitBtn" onclick="getData()" type="submit" class="btn btn-primary mt-3 btn-block">Submit</button>
+            </div>
+    </div>
+</div>
+
+<!-- Contact End -->
+
+ 
+
+ <!-- back to stop button start  -->
+ <button
+ type="button"
+ class="btn bg-secondary btn-floating btn-lg rounded py-2 border-0"
+ id="btn-back-to-top"
+>
+ <svg
+   xmlns="http://www.w3.org/2000/svg"
+   class="icon icon-tabler icon-tabler-chevron-up"
+   width="40"
+   height="40"
+   viewBox="0 0 24 24"
+   stroke-width="2"
+   stroke="#ffffff"
+   fill="none"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+ >
+   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+   <polyline points="6 15 12 9 18 15" />
+ </svg>
+</button>
+<!-- back to stop button end  -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script type="module" src="../scripts/contact.js"></script>
+</body>
+</html>

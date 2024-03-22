@@ -1,0 +1,70 @@
+.services-header {
+    font-size: 60px;
+}
+
+.box-shadow {
+    display: flex;
+}
+
+.air-list {
+
+    list-style-type: circle;
+    color: black;
+}
+
+.content {
+    border-radius: 4px;
+    line-height: 40px;
+    
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    display: none;
+    background-color: #00227c;
+  }
+
+  .nav-style {
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .box-shadow {
+
+    box-shadow:1px 1px 4px;
+    line-height: 20px;
+}
+
+li {
+    line-height: 40px;
+}
+li:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border-width: 5px;
+    color: dark;
+}
+
+.navbar-toggler {
+    background-color: white;
+   }
+
+.navbar {
+    /* background-color: black; */
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.footer-below {
+    justify-content: space-around;
+}
+
+.fa-brands {
+
+    font-size: 30px;
+}

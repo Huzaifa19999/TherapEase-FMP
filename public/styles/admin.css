@@ -1,0 +1,94 @@
+    body {
+        background-image: url('../images/pages-images/Wallpaper\ for\ MacBook\ _\ desktop\ Wallpaper\ _\ \ Aesthetic\ Minimalist\ Wallpaper.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        font-weight: bold;
+    }
+
+    .nav-style {
+        font-family: "Open Sans", sans-serif;
+      }
+
+      .navbar-toggler {
+        background-color: white;
+       }
+    /* .navbar {
+        position: fixed;
+        margin-top: -100px;
+        width: 100%;
+        
+    } */
+    .navbar-logo {
+        background-color: black;
+        height: 60px;
+        width: 120px;
+    }
+
+    .navbar {
+        /* background-color: black; */
+        position: fixed;
+        top: -10px;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .navbar-nav {
+        display: flex;
+
+    }
+    #navbarNav {
+        justify-content: space-evenly;
+    }
+  
+
+    .navbar-logo {
+        height: 60px;
+    }
+
+    .login-container {
+        margin-top: 100px;
+    }
+
+    /* .login-form {
+        background-color: white;
+        padding: 30px; 
+        border-radius: 5px;
+        box-shadow: 1px 2px 4px;
+        color: black;
+        border: 1px solid blue;
+    } */
+    .login-form {
+        background-color: rgba(255, 255, 255, 0.5); /* Background color with opacity */
+        backdrop-filter: blur(0.5px); /* Apply backdrop filter for blur effect */
+        padding: 30px; 
+        border-radius: 5px;
+        box-shadow: 1px 1px 20px;
+        color: black;
+        border: 1px solid blue;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .login-button {
+        /* background-color: blue; */
+        font-weight: bold;
+        border: none;
+    }
+    #navbarSupportedContent {
+        display: flex;
+        justify-content: space-around;
+    }
+
+   
+ 
+    .nav-link:hover {
+        text-decoration: underline;
+    }
+
+    .fa-brands {
+        font-size: xx-large;
+    }
